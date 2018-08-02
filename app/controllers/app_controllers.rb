@@ -11,7 +11,7 @@ class AppController < Sinatra::Base
     erb :index
   end 
   post '/' do
-    @the_result
+    @the_result = 
 end 
 
 require './config/environment'
