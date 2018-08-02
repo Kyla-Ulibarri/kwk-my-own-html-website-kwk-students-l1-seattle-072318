@@ -1,0 +1,47 @@
+  body {
+      background-color: white;
+  }
+  
+  #title-section {
+      color: #271300;
+      text-align: center;
+      border-style: solid;
+      border-width: thick;
+      border-color: BlanchedAlmond; 
+      font-family: 'Arimo', serif;
+  }
+  
+  #about-section {
+      font-size: 150%;
+      font-family: 'Sunflower', sans-serif;
+      text-align: center;
+      color: #271300;
+  }
+  
+  .interests {
+      color: darkslategray;
+      font-size: 90%;
+      
+  }
+  
+  .reading {
+    float: left;
+    width: 33.33%;
+}
+
+ .writing {
+    float: left;
+    width: 33.33%;
+}
+
+ .academia {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+/*.interests:after {*/
+/*    content: "";*/
+/*    display: table;*/
+/*    clear: both;*/
+/*}*/
